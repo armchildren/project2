@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Краски</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-flex">
+                <a href="#" class="link header__logo">
+                    <img src="img/logo.svg" alt="" class="logo">
+                </a>
+                <div class="header-burger">
+                    <span></span>
+                </div>
+                <nav class="header-content">
+                    <ul class="header-content__list">
+                        <li class="header-content__item">
+                            <a href="#" class="link header-content__link">Главная</a>
+                        </li>                            
+                        <li class="header-content__item">
+                            <a href="#" class="link header-content__link">Каталог</a>
+                            <ul>
+                                <li><a href="point.html" class="link">Краски</a></li>
+                                <li><a href="#" class="link">Лаки</a></li>
+                                <li><a href="#" class="link">Клеи</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-content__item">
+                            <a href="#" class="link header-content__link">О нас</a>
+                        </li>
+                        <li class="header-content__item">
+                            <a href="#" class="link header-content__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="header-authentication link">Войти</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="intro">
+            <div class="container">
+                <div class="intro-content">
+                    <h3 class="intro__suptitle">оптовые поставки</h3>
+                    <h2 class="intro__title">лакокрасочной продукции</h2>
+                    <p class="itro__desr">По специальным ценам с доставкой за 24 часа и отсрочкой платежа до 60 дней</p>
+                    <a href="#" class="link intro__link">Обратный связь</a>
+                </div>
+            </div>
+        </section>
+        <section class="aboutus">
+            <div class="aboutus-container container">
+                <div class="aboutus-content">
+                    <p class="aboutus-content__suptitle">о нас</p>
+                    <h3 class="aboutus-content__title">Немного о нас</h3>
+                    <p class="aboutus-content__descr">Лакокрасочные материалы (ЛКМ) — это композиционные составы, наносимые на отделываемые поверхности в жидком или порошкообразном виде 
+                    равномерными тонкими слоями и образующие после высыхания и отвердения пленку, имеющую прочное сцепление с основанием. Сформировавшуюся плёнку называют лакокрасочным покрытием, свойством которого является
+                    защита поверхности от внешних воздействий (воды, коррозии, температур, вредных веществ), придание ей определённого вида, цвета и фактуры.</p>
+                </div>
+                <img src="img/about.jpg" class="aboutus__img" alt="">
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="line"></div>
+                <h2 class="services__title">Наш каталог продукции</h2>
+                <p class="services__subtext">Качество услуг соответствует требованиям ГОСТ</p>
+                <div class="services-container">
+                    <div class="services-content">
+                        <img class="services-content__img" src="img/paint.png" alt="">
+                        <div class="services-content__block">
+                            <h2 class="services-content__title">Краски</h2>
+                        <p class="services-content__price">От&nbsp;<span class="services-content__price__elem">1000</span>&nbsp;&nbsp;руб.</p>
+                        <a href="point.html" class="services-content__link link">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="services-content">
+                        <img class="services-content__img" src="img/lak.png" alt="">
+                        <div class="services-content__block">
+                            <h2 class="services-content__title">Лаки</h2>
+                        <p class="services-content__price">От&nbsp;&nbsp;<span class="services-content__price__elem">500</span>&nbsp;&nbsp;руб.</p>
+                        <a href="#" class="services-content__link link">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="services-content">
+                        <img class="services-content__img" src="img/kle.jpg" alt="">
+                        <div class="services-content__block">
+                            <h2 class="services-content__title">Клеи</h2>
+                            <p class="services-content__price">От&nbsp;&nbsp;<span class="services-content__price__elem">500</span>&nbsp;&nbsp;руб.</p>
+                            <a href="#" class="services-content__link link">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="container">
+                <div class="line"></div>
+                <h2 class="services__title benefits-title">Преимущества работы с нами</h2>
+                <div class="benefits-container">
+                    <div class="benefits-block">
+                        <div class="benefits-block__img benefits-block1__img"></div>
+                        <h2 class="benefits-block__title">бесплатно доставим любой объем</h2>
+                    </div>
+                    <div class="benefits-block">
+                        <div class=" benefits-block__img benefits-block2__img"></div>
+                        <h2 class="benefits-block__title">Большой ассортимент продукции</h2>
+                    </div>
+                    <div class="benefits-block">
+                        <div class="benefits-block__img benefits-block3__img"></div>
+                        <h2 class="benefits-block__title">Отличное качество нашей продукции</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="formalization">
+            <div class="formalization-container container">
+                <div class="line"></div>
+                <h2 class="services__title formalization__title">Этапы оформления заказа</h2>
+                <div class="formalization-flex">
+                    <div class="formalization-content">
+                        <div class="number">1</div>
+                        <div class="formalization-content__block">
+                            <h4 class="formalization-content__title">Заявка</h4>
+                            <p class="formalization-content__descor">Звоните или оставляете заявку с сайта</p>
+                        </div>
+                    </div>
+                    <div class="formalization-content">
+                        <div class="number">2</div>
+                        <div class="formalization-content__block">
+                            <h4 class="formalization-content__title">Оплата</h4>
+                            <p class="formalization-content__descor">Вы производите оплату Заключаем договор, производите оплату</p>
+                        </div>
+                    </div>
+                    <div class="formalization-content">
+                        <div class="number">3</div>
+                        <div class="formalization-content__block">
+                            <h4 class="formalization-content__title">Доставка в срок</h4>
+                            <p class="formalization-content__descor">Доставка осуществляется в день оплаты</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="line"></div>
+                <h2 class="services__title reviews__title">Отзывы наших клиентов</h2>
+                <div class="reviews-slider__container">
+                    <div class="reviews-slider__track">
+                        <div class="reviews-slider__item">
+                            <p class="reviews-slider__item__title">Иван</p>
+                            <div class="reviews-slider__item__content">
+                                О DOMEO могу сказать, что это хорошая компания, в которой можно купить многое для ремонта. 
+                                Неоднократно приобретали здесь краски и грунтовки, к качеству материалов претензий никогда не возникало. Кроме того, при больших объемах нам предоставляли скидки.
+                                 Доставка на уровне - все вовремя и без обмана. Надеемся на дальнейшее продолжение сотрудничества.
+                            </div>
+                        </div>
+                        <div class="reviews-slider__item">
+                            <p class="reviews-slider__item__title">Маша</p>
+                            <div class="reviews-slider__item__content">
+                                Недавно начали с вами сотрудничать, берем разные материалы оптом. 
+                                Пока все устраивает, нужным объемом нас обеспечиваете. 
+                                Расценки у вас на оптимальном уровне. Надеемся, что в дальнейшем наше с вами взаимодействие будет таким же продуктивным!
+
+                            </div>
+                        </div>
+                        <div class="reviews-slider__item">
+                            <p class="reviews-slider__item__title">Мурад</p>
+                            <div class="reviews-slider__item__content">
+                                Воспользовался услугами «DOMEO». Заказал лакокрасочные материалы. Впечатления от работы с этой компанией остались положительными. 
+                                Актуальные цены, вежливые и компетентные консультанты, большой выбор цветовой гаммы. 
+                                Качество продукции на высоте. Всем советую сотрудничать с этой компанией, не пожалеете.
+                            </div>
+                        </div>
+                        <div class="reviews-slider__item">
+                            <p class="reviews-slider__item__title">Алиса</p>
+                            <div class="reviews-slider__item__content">
+                                Достаточно длительное время муж занимается евро-ремонтами. Чтобы работа была была качественная, 
+                                мы предпочитаем заказывать краски, лаки и эмали только те, в которых уверены.
+                                 Уже достаточно давно заказываем здесь крупные партии и очень довольны качеством товара, быстротой доставки и умеренными ценами. 
+                                Так мы экономим свои средства, но это никак не влияет на качество наших ремонтов.
+                            </div>
+                        </div>
+                        <div class="reviews-slider__item">
+                            <p class="reviews-slider__item__title">Наталья</p>
+                            <div class="reviews-slider__item__content">
+                                Добрый день! Я занималась покупкой лакокрасочных материалов для ремонта нескольких офисов.
+                                 Выбрала компанию "DOMEO" и не пожалела. Высокий уровень обслуживания, грамотные 
+                                специалисты, готовые помочь, качество товара на уровне! Большое спасибо за Вашу работу и за Вашу продукцию!
+                            </div>
+                        </div>
+                        <div class="reviews-slider__item">
+                            <p class="reviews-slider__item__title">Кирилл</p>
+                            <div class="reviews-slider__item__content">
+                                Наша строительная компания постоянно закупает у вас лаки, краски, грунт, герметики и другие материалы. 
+                                Ассортимент предлагаете большой, цены не завышаете.
+                                 С поставками накладок не бывает, все заказы приезжают вовремя.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-slider__buttom">
+                    <button class="btn-prev"></button>
+                    <button class="btn-next"></button>
+                </div>
+            </div>
+        </section>
+        <section class=" container contacts">
+            <div class="line"></div>
+            <h2 class="services__title contacts__title">Контакты</h2>
+            <div class="contacts-flex">
+                <div class="contacts-content">
+                    <img src="img/gps.png" alt="" class="contacts-img">
+                    <h3 class="contacts-title">Адрес:</h3>
+                    <h3 class="contacts-descr">Улица 25-я линния<br>дом 44</h3>
+                </div>
+                <div class="contacts-content">
+                    <img src="img/tel.png" alt="" class="contacts-img">
+                    <h3 class="contacts-title">Телефон:</h3>
+                    <h3 class="contacts-descr">8 (812) 111-22-33 <br> 8 (812) 111-22-33</h3>
+                </div>
+                <div class="contacts-content">
+                    <img src="img/time.png" alt="" class="contacts-img">
+                    <h3 class="contacts-title">Время работы:</h3>
+                    <h3 class="contacts-descr">пн-сб <br>10:00 - 20:00</h3>
+                </div>
+                <div class="contacts-content">
+                    <img src="img/mail.png" alt="" class="contacts-img">
+                    <h3 class="contacts-title">e-mail:</h3>
+                    <h3 class="contacts-descr contacts-descr-active">info@vip.ru</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <nav class="footer-header__nav">
+                    <img src="img/logo.svg" alt="" class="logo">
+                    <span class="footer__nav__decr">Лучшие краски в вашем городе</span>
+                </nav>
+                <nav class="footer-bottom__nav">
+                    <a href="tel:+79518440407" class="link footer__number">+7 (951) 844-04-07</a>
+                    <a href="" class="link footer__link">Заккзать звонок</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <div class="modal">
+        <div class="modal__container">
+            <div class="modal__body">
+                <h2 class="modal__title">Обратный свзяь</h2>
+                <form action="#" id="form" class="modal__form">
+                    <div class="form__item">
+                        <label for="forName" class="form__label">Имя*</label>
+                        <input type="text" id="forName" name="name" class="form__input">
+                    </div>
+                    <div class="form__item">
+                        <label for="forTel" class="form__label">Телефон*</label>
+                        <input type="tel" id="forTel" name="tel" class="form__input">
+                    </div>
+                    <div class="form__item">
+                        <label for="forEmail" class="form__label">Email*</label>
+                        <input type="email" id="forEmail" name="email" class="form__input email">
+                    </div>
+                    <button type="submit" class="form__button">Отправить</button>
+                </form>
+            </div>
+            <div class="btn__close"></div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/valid.js"></script>
+</html>
